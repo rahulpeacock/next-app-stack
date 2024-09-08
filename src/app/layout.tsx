@@ -1,3 +1,4 @@
+import { QueryProvider } from '@/client/providers/query-client-provider';
 import { ThemeProvider } from '@/client/providers/theme-provider';
 import '@/styles/main.scss';
 import type { Metadata } from 'next';
@@ -19,7 +20,7 @@ export default function RootLayout({
     <html lang='en' suppressHydrationWarning>
       <body className={`${inter.className}`}>
         <ThemeProvider attribute='class' defaultTheme='system' enableSystem disableTransitionOnChange>
-          {children}
+          <QueryProvider>{children}</QueryProvider>
         </ThemeProvider>
       </body>
     </html>
