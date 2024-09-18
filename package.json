@@ -13,26 +13,26 @@
   "dependencies": {
     "@radix-ui/react-dropdown-menu": "^2.1.1",
     "@radix-ui/react-slot": "^1.1.0",
-    "@tanstack/react-query": "^5.55.0",
+    "@tanstack/react-query": "^5.56.2",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
-    "lucide-react": "^0.439.0",
-    "next": "14.2.8",
+    "lucide-react": "^0.441.0",
+    "next": "14.2.12",
     "next-themes": "^0.3.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "tailwind-merge": "^2.5.2",
     "tailwindcss-animate": "^1.0.7",
-    "zustand": "^4.5.5"
+    "zustand": "5.0.0-rc.2"
   },
   "devDependencies": {
-    "@biomejs/biome": "^1.8.3",
-    "@types/node": "^20.16.5",
-    "@types/react": "^18.3.5",
+    "@biomejs/biome": "^1.9.1",
+    "@types/node": "^22.5.5",
+    "@types/react": "^18.3.7",
     "@types/react-dom": "^18.3.0",
-    "postcss": "^8.4.45",
-    "sass": "^1.78.0",
-    "tailwindcss": "^3.4.10",
-    "typescript": "^5.5.4"
+    "postcss": "^8.4.47",
+    "sass": "^1.79.1",
+    "tailwindcss": "^3.4.12",
+    "typescript": "^5.6.2"
   }
 }

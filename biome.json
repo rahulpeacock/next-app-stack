@@ -1,8 +1,5 @@
 {
   "$schema": "./node_modules/@biomejs/biome/configuration_schema.json",
-  "organizeImports": {
-    "enabled": false
-  },
   "files": {
     "ignore": ["node_modules/**/*", "dist/**/*", ".next/**/*", "src/routeTree.gen.ts", ".vercel/**/*", "out/**/*"]
   },
@@ -24,6 +21,9 @@
       "a11y": {
         "useKeyWithClickEvents": "off",
         "useKeyWithMouseEvents": "off"
+      },
+      "correctness": {
+        "noUnusedImports": "warn"
       }
     }
   },
@@ -39,6 +39,15 @@
       "trailingCommas": "all",
       "semicolons": "always",
       "jsxQuoteStyle": "single"
+    }
+  },
+  "css": {
+    "formatter": {
+      "enabled": true,
+      "indentStyle": "space"
+    },
+    "linter": {
+      "enabled": true
     }
   }
 }
