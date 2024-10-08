@@ -1,6 +1,6 @@
 import { QueryProvider } from '@/client/providers/query-client-provider';
 import { ThemeProvider } from '@/client/providers/theme-provider';
-import '@/styles/main.scss';
+import '@/styles/main.css';
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 
