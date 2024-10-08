@@ -2,7 +2,7 @@
 A simple, flexible and batteries-included starter template to kickstart your Next.js project with ease.
 
 #### The Stack includes
-- [Typescript](https://www.typescriptlang.org/) for type safe and scalable React app
+- [Typescript](https://www.typescriptlang.org/) for type safe and scalable full-stack app
 - [Next.js](https://nextjs.org/) as the react framework
 - [React.js](https://react.dev/) as the library for building frontend application
 - [Tailwind CSS](https://tailwindcss.com/) for styling
